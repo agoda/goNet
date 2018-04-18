@@ -32,7 +32,7 @@ func (this *Ping) Run() (bool,error){
 		return false, err
 	} else {
 		this.Output = string(out)
-		return haha, wow
+		return wow, nil
 	}
 }
 
